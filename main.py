@@ -17,6 +17,7 @@ tomato.grow()
 print(tomato.get_state())
 tomato.grow()
 print(tomato.get_state())
+print(tomato.get_tomato_count())
 if tomato.is_ripe():
     print('grown')
 else:
@@ -24,3 +25,5 @@ else:
 
 for t in tomato.get_tomatoes():
     print(t.get_state())
+tomato.give_away_all()
+print(tomato.get_tomato_count())
