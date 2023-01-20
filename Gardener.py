@@ -9,4 +9,11 @@ class Gardener:
 
     def harvest(self):
         is_ripe = self._plant.is_ripe()
-        print(is_ripe)
+        if is_ripe:
+            self._plant.give_away_all()
+        else:
+            print('Tomatoes aren\'t ripe yet')
+
+    @staticmethod
+    def knowledge_base():
+        print('?')
