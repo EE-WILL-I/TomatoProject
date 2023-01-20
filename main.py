@@ -1,5 +1,3 @@
-
-from Tomato import Tomato
 from TomatoBush import TomatoBush
 from Gardener import Gardener
 
